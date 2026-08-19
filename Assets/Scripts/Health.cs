@@ -74,7 +74,7 @@ public class Health : MonoBehaviour
         // Check for rigidbody
         if (rb != null)
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
         }
 
         // Health Check

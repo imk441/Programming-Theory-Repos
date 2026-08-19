@@ -78,7 +78,7 @@ public class RangedEnemy : Enemy
         }
         else
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
 
             if (!hasStopped)
             {

@@ -34,7 +34,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * m_moveSpeed;
+        rb.linearVelocity = transform.forward * m_moveSpeed;
     }
 
     // Update is called once per frame
